@@ -55,7 +55,7 @@ ROOT_URLCONF = 'AnoDetect.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR'+/AnomalyDetector/Templates/'],
+        'DIRS': [BASE_DIR+'/AnomalyDetector/Templates/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
