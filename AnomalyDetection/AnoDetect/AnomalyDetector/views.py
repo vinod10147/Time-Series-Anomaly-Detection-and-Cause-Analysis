@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect
 from django.conf import settings
 from django.core.files.storage import FileSystemStorage
 from django.http import HttpResponse
-import rpy2.robjects as ro
+#import rpy2.robjects as ro
 import csv
 import time
 import subprocess
